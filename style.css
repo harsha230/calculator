@@ -1,0 +1,67 @@
+.calbuttons{
+    font-size: 1.5rem;
+  
+    background-color: #6d5883;
+    color: white;
+    height: 50px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    margin: auto;
+}
+body{
+    background: hsla(234, 80%, 88%, 1);
+
+    background: linear-gradient(90deg, hsla(234, 80%, 88%, 1) 0%, hsla(340, 68%, 88%, 1) 50%, hsla(342, 72%, 85%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(234, 80%, 88%, 1) 0%, hsla(340, 68%, 88%, 1) 50%, hsla(342, 72%, 85%, 1) 100%);
+    
+  
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#CACFF9", endColorstr="#F5CBD9", GradientType=1 );
+}
+.light{
+    background-color:#473861;
+}
+.orange{
+    background-color:#ff9e0b;
+}
+
+.calcontainer{
+    background-color: #392251;
+    display: grid;
+    grid-template-columns: 100%;
+    width: 300px;
+    height: 325px;
+    grid-gap: 1px;
+    grid-template-rows: 1fr 3fr;
+   border-radius: 5%;
+   overflow: hidden;
+   margin: auto;
+   margin-top: 30vh;
+   border: 1px solid #6a452f;
+}
+.buttons-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1px;
+    
+}
+.zero-button{
+    grid-column: span 2;
+    
+}
+
+.text-display{
+    vertical-align: bottom;
+   text-align: right;
+    margin-top: 20px;
+    color: #eee9e7;
+    font-size: 3rem;
+    font-family: sans-serif ;
+    padding-right: 10px;
+    overflow:scroll;
+}
+.display{
+    height: 25px;
+}
